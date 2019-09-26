@@ -103,6 +103,7 @@
     border-radius: 3px;
     padding-top: 18px;
     padding-bottom: 18px;
+    border-radius: 5px;
 }
 
 .submit:hover{
@@ -125,6 +126,7 @@
     padding-left: 41px;
     margin-right: 8px;
     border: none;
+    border-radius: 5px;
 }
 
 .email{
@@ -138,6 +140,7 @@
     padding-left: 41px;
     margin-right: 8px;
     border: none;
+    border-radius: 5px;
 }
 
 .number{
@@ -151,6 +154,7 @@
     padding-left: 41px;
     margin-right: 8px;
     border: none;
+    border-radius: 5px;
 }
 
 .header_banner_forms_box_1{
@@ -325,11 +329,22 @@
 .about_us{
     min-height: 600px;
     background-color: #ffc155;
-    margin-top: 70px;
+    margin-top: 70px;  
+    position: relative;
+}
+
+.about_us_img{
+    position: absolute;
     background-image: url(img/table.png);
-    background-size: 50% 100%;
     background-repeat: no-repeat;
     overflow: auto;
+    width: 50%;
+    height: 100%;
+}
+
+.container_6{
+    max-width: 1700px;
+    margin: 0 auto;
 }
 
 .about_us_box{
@@ -642,9 +657,6 @@
 
 .client_box_text::after{
     content: url('img/2.png');
-    position: absolute;
-    left: 325px;
-    top: 66px;
 }
 
 .client{
@@ -704,6 +716,7 @@
     padding-left: 41px;
     margin-right: 8px;
     border: 1px solid #cbcbcb;
+    border-radius: 3px;
 }
 
 .email_1{
@@ -718,6 +731,7 @@
     margin-right: 8px;
     border: none;
     border: 1px solid #cbcbcb;
+    border-radius: 3px;
 }
 
 .newsletter_forms_box_1{
